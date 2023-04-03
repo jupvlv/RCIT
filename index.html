@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>РЦИТ</title>
+</head>
+<body>
+    <section class="">
+        <div class="wrapper">
+            <div class="header">
+                <!-- Лого -->
+                <div class="header-logo">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="header-items">
+                    <div class="buttons-head">
+                        <!-- Кнопка Для физических лиц -->
+                        <div class="fiz-button">
+                            <a href="#">Для физических лиц</a>
+                        </div>
+                        <!-- Кнопка Для юридических лиц -->
+                        <div class="yur-button">
+                            <a href="#">Для юридических лиц</a>
+                        </div>
+                    </div>
+
+                    <!-- Кнопка поиска -->
+                    <div class="i-search">
+                        <div class="header-search">
+                            <form class="search">
+                                <input type="text" placeholder="Поиск">
+                                <a href="#" class="button-search">
+                                    <img src="img/search.svg" alt="">
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Версия для слабовидящих -->
+                    <div>
+                        <div class="button-version">
+                            <a href="#">                       
+                                <img src="img/version.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Кнопка профиля -->
+                    <div>
+                        <div class="header-profile">
+                            <a href="#">
+                                <img src="img/profile.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Бургер меню -->
+                    <!-- <div class="burger-menu">
+                        <img src="img/burger-menu.svg" alt="#">
+                    </div> -->
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                          <span>
+                            <img src="img/burger-menu.svg" alt="">
+                          </span>
+                        </label>
+                        <ul class="menu__box">
+                            <div class="menu-box-header">
+                                <div class="buttons-head">
+                                    <!-- Кнопка Для физических лиц -->
+                                    <div class="fiz-button">
+                                        <a href="#">Для физических лиц</a>
+                                    </div>
+                                    <!-- Кнопка Для юридических лиц -->
+                                    <div class="yur-button">
+                                        <a href="#">Для юридических лиц</a>
+                                    </div>
+                                </div>
+                                <div class="menu-box-header-right">
+                                    <div>
+                                        <div class="button-version">
+                                            <a href="#">                       
+                                                <img src="img/version.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                
+                                    <!-- Кнопка профиля -->
+                                    <div>
+                                        <div class="header-profile">
+                                            <a href="#">
+                                                <img src="img/profile.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <input id="menu__toggle" type="checkbox" />
+                                    <label class="menu__btn" for="menu__toggle">
+                                    <span>
+                                        <img src="img/burger-menu-close.svg" alt="#">
+                                    </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="menu-box-sections">
+                                <div class="burger-menu-subsections">
+                                    <li>
+                                        <a href="#">О РЦИТ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Документы</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Достижения</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Вакансии</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Штаб ЦТ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">История РЦИТ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Политика РЦИТ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Реализованные проект</a>
+                                    </li>
+                                </div>
+                                <div class="burger-menu-sections">
+                                    <li class="burger-menu-li">
+                                        <img src="img/arrow-burger-menu.svg" alt="">
+                                        <a class="menu__item" href="#">О НАС</a>
+                                    </li>
+                                    <li class="burger-menu-li">
+                                        <img src="img/arrow-burger-menu.svg" alt="">
+                                        <a class="menu__item" href="#">УСЛУГИ</a>
+                                    </li>
+                                    <li class="burger-menu-li">
+                                        <img src="img/arrow-burger-menu.svg" alt="">
+                                        <a class="menu__item" href="#">СПРАВОЧНИК</a>
+                                    </li>
+                                    <li class="burger-menu-li">
+                                        <img src="img/arrow-burger-menu.svg" alt="">
+                                        <a class="menu__item" href="#">ПРЕСС-ЦЕНТР</a>
+                                    </li>
+                                    <li class="burger-menu-li">
+                                        <img src="img/arrow-burger-menu.svg" alt="">
+                                        <a class="menu__item" href="#">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</a>
+                                    </li>
+                                    <li class="burger-menu-li">
+                                        <a class="menu__item" href="#">ТЕЛЕФОННЫЙ СПРАВОЧНИК</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Меню -->
+    <section class="menu">
+        <div class="wrapper">
+            <div class="search-table-version">
+                <div class="i-search">
+                    <div class="header-search">
+                        <form class="search">
+                            <input type="text" placeholder="Поиск">
+                            <a href="#" class="button-search">
+                                <img src="img/search.svg" alt="">
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-menu">
+            <div class="menu-2">
+                <!-- Линии на меню -->
+                <div class="menu-lines">
+                    <img src="img/lines.svg" alt="">
+                </div>
+                <!-- Кнопки меню -->
+                <div class="menu-buttons">
+                    <div class="o-nas">
+                        <button class="nav-button">О НАС</button>
+                        <div class="button-items">
+                            <a href="#">Документы</a>
+                            <a href="#">Штаб ЦТ</a>
+                            <a href="#">История РЦИТ</a>
+                            <a href="#">Политика РЦИТ</a>
+                            <a href="#">Достижения</a>
+                            <a href="#">Реализованные проекты</a>
+                            <a href="#">Вакансии</a>
+                        </div>
+                    </div>
+                    
+                    <div class="o-nas">
+                        <button class="nav-button">УСЛУГИ</button>
+                        <div class="button-items">
+                            <a href="#">Документы</a>
+                            <a href="#">Штаб ЦТ</a>
+                            <a href="#">История РЦИТ</a>
+                            <a href="#">Политика РЦИТ</a>
+                            <a href="#">Достижения</a>
+                            <a href="#">sss</a>
+                            <a href="#">Вакансии</a>
+                        </div>
+                        <div class="o-nas-block">
+                        </div>
+                    </div>
+
+                    <div class="o-nas">
+                        <button class="nav-button">СЕРВИСЫ</button>
+                        <div class="button-items">
+                            <a href="#">Документы</a>
+                            <a href="#">Штаб ЦТ</a>
+                            <a href="#">История РЦИТ</a>
+                            <a href="#">Политика РЦИТ</a>
+                            <a href="#">Достижения</a>
+                            <a href="#">sss</a>
+                            <a href="#">Вакансии</a>
+                        </div>
+                    </div>
+
+                    <div class="o-nas">
+                        <button class="nav-button">ПРЕСС-ЦЕНТР</button>
+                        <div class="button-items">
+                            <a href="#">Документы</a>
+                            <a href="#">Штаб ЦТ</a>
+                            <a href="#">История РЦИТ</a>
+                            <a href="#">Политика РЦИТ</a>
+                            <a href="#">Достижения</a>
+                            <a href="#">sss</a>
+                            <a href="#">Вакансии</a>
+                        </div>
+                        <div class="o-nas-block">
+                        </div>
+                    </div>
+
+                    <div class="o-nas">
+                        <button class="nav-button">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</button>
+                        <div class="button-items">
+                            <a href="#">Документы</a>
+                            <a href="#">Штаб ЦТ</a>
+                            <a href="#">История РЦИТ</a>
+                            <a href="#">Политика РЦИТ</a>
+                            <a href="#">Достижения</a>
+                            <a href="#">sss</a>
+                            <a href="#">Вакансии</a>
+                        </div>
+                    </div>
+
+                    <div class="o-nas">
+                        <button class="nav-button">ТЕЛЕФОННЫЙ СПРАВОЧНИК</button>
+                        <div class="button-items">
+                            <a href="#">Документы</a>
+                            <a href="#">Штаб ЦТ</a>
+                            <a href="#">История РЦИТ</a>
+                            <a href="#">Политика РЦИТ</a>
+                            <a href="#">Достижения</a>
+                            <a href="#">sss</a>
+                            <a href="#">Вакансии</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Бегущая строка -->
+    <section class="ticker">
+        <div class="background-ticker">
+            <div class="wrapper">
+                <div class="text-ticker">
+                    <marquee behavior="scroll" direction="left">Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00 запланировано проведение регламентных работ программно-аппаратного комплекса обеспечения информационной безопас...</marquee>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Баннер -->
+    <section>
+        <div class="swiper mySwiper main_swiper">
+            <div class="swiper-wrapper">
+                <!-- 1 слайд -->
+                <div class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="main_swiper--wrapper">
+                            <div class="banner-content">
+                                <div class="banner-text">
+                                    <div class="text1-1slide">
+                                        // Есть возможность выбора типа канала
+                                    </div>
+                                    <div class="text2-1slide">
+                                        Аренда каналов связи
+                                    </div>
+                                    <div class="text3-1slide">
+                                        Есть возможность выбора типа канала
+                                    </div>
+                                    <button class="button-banner">
+                                        <a href="#">Подробнее</a>
+                                    </button>
+                                </div>
+                                <div class="img-1slide">
+                                    <img class="img-desktop-banner" src="img/banner.svg" alt="">
+                                    <img class="img-table-banner" src="img/table-banner.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 слайд -->
+                <div class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="main_swiper--wrapper">
+                            <div class="banner-content">
+                                <div class="banner-text">
+                                    <div class="text1-1slide">
+                                        // Есть возможность выбора типа канала
+                                    </div>
+                                    <div class="text2-1slide">
+                                        Аренда каналов связи
+                                    </div>
+                                    <div class="text3-1slide">
+                                        Есть возможность выбора типа канала
+                                    </div>
+                                    <button class="button-banner">
+                                        <a href="#">Подробнее</a>
+                                    </button>
+                                </div>
+                                <div class="img-1slide">
+                                    <img class="img-desktop-banner" src="img/banner.svg" alt="">
+                                    <img class="img-table-banner" src="img/table-banner.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 слайд -->
+                <div class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="main_swiper--wrapper">
+                            <div class="banner-content">
+                                <div class="banner-text">
+                                    <div class="text1-1slide">
+                                        // Есть возможность выбора типа канала
+                                    </div>
+                                    <div class="text2-1slide">
+                                        Аренда каналов связи
+                                    </div>
+                                    <div class="text3-1slide">
+                                        Есть возможность выбора типа канала
+                                    </div>
+                                    <button class="button-banner">
+                                        <a href="#">Подробнее</a>
+                                    </button>
+                                </div>
+                                <div class="img-1slide">
+                                    <img class="img-desktop-banner" src="img/banner.svg" alt="">
+                                    <img class="img-table-banner" src="img/table-banner.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 слайд -->
+                <div class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="main_swiper--wrapper">
+                            <div class="banner-content">
+                                <div class="banner-text">
+                                    <div class="text1-1slide">
+                                        // Есть возможность выбора типа канала
+                                    </div>
+                                    <div class="text2-1slide">
+                                        Аренда каналов связи
+                                    </div>
+                                    <div class="text3-1slide">
+                                        Есть возможность выбора типа канала
+                                    </div>
+                                    <button class="button-banner">
+                                        <a href="#">Подробнее</a>
+                                    </button>
+                                </div>
+                                <div class="img-1slide">
+                                    <img class="img-desktop-banner" src="img/banner.svg" alt="">
+                                    <img class="img-table-banner" src="img/table-banner.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Кнопка слайдера -->
+            <div class="wrapper">
+                <div class="nav-button-relative">
+                    <div class="banner-buttons">
+                        <div class="swiper-button--prev">
+                            <img src="img/left.svg" alt="">
+                        </div>
+                        <div class="swiper-button--next">
+                            <img src="img/right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <!-- О компании -->
+
+    <section class="about-company">
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <div class="name-company">
+                    <span>О РЦИТ</span> 
+                </div>
+                <div class="dots">
+                    <div class="left-dots">
+                        <img src="img/Dots.svg" alt="">
+                    </div>
+                    <div class="right-dots">
+                        <img src="img/Dots.svg" alt="">
+                    </div>
+                    <div class="block-company">
+                        <div class="text-company">
+                            <h3 class="c-header g-20-500">Наша компания дарит радость и комфорт </h3>
+                            <span class="c-text g-18-400">Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00запланировано проведение регламентных работ программно-аппаратногокомплекса обеспечения информационной безопасности на узлах «СахаИнформ-Сеть».Во время проведения регламентных работ будут кратковременные перебои телефонной связи.Работы будут выполнены по следующим адресам:</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Кнопка "Подробнее" -->
+                <div class="company-button">
+                    <a class="g-16-500" href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+
+    <section class="service">
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <div class="service-header">
+                    <span>Популярные услуги</span>
+                </div>
+
+                <!-- Свайпер -->
+                <div class="swiper service-swiper">
+                    <div class="swiper-wrapper service-swiper-wrapper">
+                        <!-- Карточки слайдера -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-header-blue">
+                                    <img src="img/card-logo1.svg" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <p class="g-18-500 text1">Аренда каналов связи</p>
+                                    <p class="g-14-400 text2">Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет </p>
+                                    <span class="g-18-400">от 700 руб/мес</span>
+                                    <div class="card-button">
+                                        <a href="#">Подключить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-header-blue">
+                                    <img src="img/card-logo2.svg" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <p class="g-18-500 text1">Аренда каналов связи</p>
+                                    <p class="g-14-400 text2">Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет </p>
+                                    <span class="g-18-400">от 700 руб/мес</span>
+                                    <div class="card-button">
+                                        <a href="#">Подключить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-header-blue">
+                                    <img src="img/card-logo3.svg" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <p class="g-18-500 text1">Аренда каналов связи</p>
+                                    <p class="g-14-400 text2">Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет </p>
+                                    <span class="g-18-400">от 700 руб/мес</span>
+                                    <div class="card-button">
+                                        <a href="#">Подключить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-header-blue">
+                                    <img src="img/card-logo4.svg" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <p class="g-18-500 text1">Аренда каналов связи</p>
+                                    <p class="g-14-400 text2">Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет </p>
+                                    <span class="g-18-400">от 700 руб/мес</span>
+                                    <div class="card-button">
+                                        <a href="#">Подключить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-header-blue">
+                                    <img src="img/card-logo5.svg" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <p class="g-18-500 text1">Аренда каналов связи</p>
+                                    <p class="g-14-400 text2">Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет </p>
+                                    <span class="g-18-400">от 700 руб/мес</span>
+                                    <div class="card-button">
+                                        <a href="#">Подключить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="card-header-blue">
+                                        <img src="img/card-logo1.svg" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <p class="g-18-500 text1">Аренда каналов связи</p>
+                                        <p class="g-14-400 text2">Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет </p>
+                                        <span class="g-18-400">от 700 руб/мес</span>
+                                        <div class="card-button">
+                                            <a href="#">Подключить</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="card-header-blue">
+                                        <img src="img/card-logo1.svg" alt="">
+                                    </div>
+                                    <div class="card-text">
+                                        <p class="g-18-500 text1">Аренда каналов связи</p>
+                                        <p class="g-14-400 text2">Имеющаяся сеть ВОЛС ГБУ РС (Я) "РЦИТ" в г. Якутск позволяет </p>
+                                        <span class="g-18-400">от 700 руб/мес</span>
+                                        <div class="card-button">
+                                            <a href="#">Подключить</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Кнопка все услуги -->
+                <div class="all-service">
+                    <a class="g-16-500" href="#">Все услуги</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Кнопка слайдера -->
+        <div class="service-button-relative">
+            <div class="service-button--prev">
+                <svg width="40" height="40" viewBox="0 0 40 40"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 3.33332C29.2048 3.33332 36.6667 10.7952 36.6667 20C36.6667 29.2047 29.2048 36.6667 20 36.6667C10.7953 36.6667 3.33337 29.2047 3.33337 20C3.33337 10.7952 10.7953 3.33332 20 3.33332Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22.0999 14.1167L16.2333 20L22.0999 25.8833" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="service-button--next">
+                <svg width="40" height="40" viewBox="0 0 40 40"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 3.33332C10.7953 3.33332 3.33335 10.7952 3.33335 20C3.33335 29.2047 10.7953 36.6667 20 36.6667C29.2048 36.6667 36.6667 29.2047 36.6667 20C36.6667 10.7952 29.2048 3.33332 20 3.33332Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17.9 14.1167L23.7667 20L17.9 25.8833" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+<!-- Объявления -->
+    <section class="ads">
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <div class="ads-header">
+                    <span>Объявления</span>
+                    <!-- Серые точки -->
+                    <div class="grey-dots">
+                        <img src="img/Dots.svg" alt="">
+                    </div>
+                </div>
+                <!-- Контент -->
+                <div class="ads-main-content">
+                    <h3 class="g-20-500 ads-h3-content">Технические работы на узлах ИТКС "СахаИнформ-Сеть"</h3>
+                    <span class="g-18-400 ads-span-content">Сообщаем, что 2 ноября 2022 года (среда) с 20:00 до 22:00запланировано проведение регламентных работ программно-аппаратногокомплекса обеспечения информационной безопасности на узлах «СахаИнформ-Сеть».Во время проведения регламентных работ будут кратковременные перебои телефонной связи.Работы будут выполнены по следующим адресам:</span>
+                </div>
+                <!-- Карточки -->
+                <div class="ads-content">
+                    <div class="ads-content-text">
+                        <a href="#" class="g-16-400">Технические работы на узлах ИТКС "СахаИнформ-Сеть"</a>
+                        <div class="ads-data">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.5 9.09H20.5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 13.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 16.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 13.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 16.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 13.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 16.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="g-16-400 date">30.11.2022</span>
+                        </div>
+                    </div>
+                    <div class="ads-content-text">
+                        <a href="#" class="g-16-400">Технические работы на узлах ИТКС "СахаИнформ-Сеть"</a>
+                        <div class="ads-data">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.5 9.09H20.5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 13.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 16.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 13.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 16.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 13.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 16.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="g-16-400 date">30.11.2022</span>
+                        </div>
+                    </div>
+                    <div class="ads-content-text">
+                        <a href="#" class="g-16-400">Технические работы на узлах ИТКС "СахаИнформ-Сеть"</a>
+                        <div class="ads-data">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.5 9.09H20.5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 13.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 16.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 13.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 16.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 13.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 16.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="g-16-400 date">30.11.2022</span>
+                        </div>
+                    </div>
+                    <div class="ads-content-text">
+                        <a href="#" class="g-16-400">Технические работы на узлах ИТКС "СахаИнформ-Сеть"</a>
+                        <div class="ads-data">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 2V5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.5 9.09H20.5"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 13.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.6947 16.7H15.7037" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 13.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.9955 16.7H12.0045" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 13.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.29431 16.7H8.30329" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="g-16-400 date">30.11.2022</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Кнопка "Все объявления" -->
+                <div class="ads-button">
+                    <a href="#" class="g-16-500">Все объявления</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел Новости -->
+    <section class="news">
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <div class="news-header">
+                    <span>Новости</span>
+                </div>
+                <!-- Карточки -->
+                <div class="news-cards">
+                    <div class="news-left-dots">
+                        <img src="img/Dots.svg" alt="">
+                    </div>
+                    <div class="news-right-dots">
+                        <img src="img/Dots.svg" alt="">
+                    </div>
+                    <a href="#">
+                        <div class="news-card">
+                            <div class="news-card-blue">
+                                <span class="g-20-400">Проверка систем оповещения населения 02 ноября в 10:40</span>
+                            </div>
+                            <div class="news-card-white">
+                                <span class="g-16-400">Во исполнение распоряжения Главы Республики Саха (Якутия) от 25 августа </span>
+                                <div class="news-card-footer">
+                                    <div class="news-card-location">
+                                        <img src="img/location.svg" alt="">
+                                        <span class="g-16-400">Якутск</span>
+                                    </div>
+                                    <div class="news-card-data">
+                                        <img src="img/calendar.svg" alt="">
+                                        <span class="g-16-400">30.11.2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="news-card">
+                            <div class="news-card-blue">
+                                <span class="g-20-400">Проверка систем оповещения населения 02 ноября в 10:40</span>
+                            </div>
+                            <div class="news-card-white">
+                                <span class="g-16-400">Во исполнение распоряжения Главы Республики Саха (Якутия) от 25 августа </span>
+                                <div class="news-card-footer">
+                                    <div class="news-card-location">
+                                        <img src="img/location.svg" alt="">
+                                        <span class="g-16-400">Якутск</span>
+                                    </div>
+                                    <div class="news-card-data">
+                                        <img src="img/calendar.svg" alt="">
+                                        <span class="g-16-400">30.11.2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="news-card">
+                            <div class="news-card-blue">
+                                <span class="g-20-400">Проверка систем оповещения населения 02 ноября в 10:40</span>
+                            </div>
+                            <div class="news-card-white">
+                                <span class="g-16-400">Во исполнение распоряжения Главы Республики Саха (Якутия) от 25 августа </span>
+                                <div class="news-card-footer">
+                                    <div class="news-card-location">
+                                        <img src="img/location.svg" alt="">
+                                        <span class="g-16-400">Якутск</span>
+                                    </div>
+                                    <div class="news-card-data">
+                                        <img src="img/calendar.svg" alt="">
+                                        <span class="g-16-400">30.11.2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Кнопка "Все новости" -->
+                <div class="news-button">
+                    <a href="#" class="g-16-500">Все новости</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел "Часто задаваемые вопросы" -->
+    <section class="questions">
+        <div class="wrapper">
+            <div class="content-wrapper">
+               <div class="que-header">
+                    <span>Часто задаваемые вопросы</span>
+                </div> 
+
+                <!-- Карточки -->
+                <div class="que-content">
+                    <div class="que-cards">
+                        <div class="que-left-dots">
+                            <img src="img/Dots.svg" alt="">
+                        </div>
+                        <div class="que-right-dots">
+                            <img src="img/Dots.svg" alt="">
+                        </div>
+                        <a href="#">
+                            <div class="que-card">
+                                <div class="que-card-items">
+                                    <span class="g-20-500">Где можно узнать номера IP телефонов ОГВ И ОМСУ?</span>
+                                    <!-- Кнопка -->
+                                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28 51.3333C40.8866 51.3333 51.3333 40.8866 51.3333 28C51.3333 15.1133 40.8866 4.66663 28 4.66663C15.1133 4.66663 4.66663 15.1133 4.66663 28C4.66663 40.8866 15.1133 51.3333 28 51.3333Z" fill="url(#paint0_linear_106_55)"/>
+                                        <path d="M25.0601 36.2366L33.2734 28L25.0601 19.7633" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <defs>
+                                        <linearGradient id="paint0_linear_106_55" x1="9.91317" y1="51.3333" x2="55.1647" y2="46.1727" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#175DF8"/>
+                                        <stop offset="1" stop-color="#004EFB"/>
+                                        </linearGradient>
+                                        </defs>
+                                    </svg>           
+                                </div>
+                                <div class="que-card-background">
+                                    <img src="img/logo-back.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="que-card">
+                                <div class="que-card-items">
+                                    <span class="g-20-500">Где можно просмотреть информацию о предоставляемых 
+                                        Учреждением услугах?</span>
+                                    <!-- Кнопка -->
+                                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28 51.3333C40.8866 51.3333 51.3333 40.8866 51.3333 28C51.3333 15.1133 40.8866 4.66663 28 4.66663C15.1133 4.66663 4.66663 15.1133 4.66663 28C4.66663 40.8866 15.1133 51.3333 28 51.3333Z" fill="url(#paint0_linear_106_55)"/>
+                                        <path d="M25.0601 36.2366L33.2734 28L25.0601 19.7633" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <defs>
+                                        <linearGradient id="paint0_linear_106_55" x1="9.91317" y1="51.3333" x2="55.1647" y2="46.1727" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#175DF8"/>
+                                        <stop offset="1" stop-color="#004EFB"/>
+                                        </linearGradient>
+                                        </defs>
+                                    </svg>           
+                                </div>
+                                <div class="que-card-background">
+                                    <img src="img/logo-back.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="que-card">
+                                <div class="que-card-items">
+                                    <span class="g-20-500">Почему не работает Skype? Почему не открываются некоторые 
+                                        развлекательные и информационные страницы.</span>
+                                    <!-- Кнопка -->
+                                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28 51.3333C40.8866 51.3333 51.3333 40.8866 51.3333 28C51.3333 15.1133 40.8866 4.66663 28 4.66663C15.1133 4.66663 4.66663 15.1133 4.66663 28C4.66663 40.8866 15.1133 51.3333 28 51.3333Z" fill="url(#paint0_linear_106_55)"/>
+                                        <path d="M25.0601 36.2366L33.2734 28L25.0601 19.7633" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <defs>
+                                        <linearGradient id="paint0_linear_106_55" x1="9.91317" y1="51.3333" x2="55.1647" y2="46.1727" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#175DF8"/>
+                                        <stop offset="1" stop-color="#004EFB"/>
+                                        </linearGradient>
+                                        </defs>
+                                    </svg>           
+                                </div>
+                                <div class="que-card-background">
+                                    <img src="img/logo-back.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Кнопка "В раздел" -->
+                <div class="que-button">
+                    <a href="#" class="g-16-500">В раздел</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел "Партнеры" -->
+    <section class="partners">
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <div class="partners-header">
+                    <span>Партнеры</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Свайпер -->
+        <div class="partners-swiper-wrapper">
+            <div class="row">
+              <div class="swiper-container" id="js-carousel">
+                <div class="swiper-wrapper partners-swiper">
+                  <div class="swiper-slide partners-slider" >
+                    <img src="img/partners-img.svg" alt="">
+                  </div>
+                  <div class="swiper-slide partners-slider" >
+                    <img src="img/partners-img.svg" alt="">
+                  </div>
+                  <div class="swiper-slide partners-slider" >
+                    <img src="img/partners-img.svg" alt="">
+                  </div>
+                  <div class="swiper-slide partners-slider" >
+                    <img src="img/partners-img.svg" alt="">
+                  </div>
+                  <div class="swiper-slide partners-slider" >
+                    <img src="img/partners-img.svg" alt="">
+                  </div>
+                  <div class="swiper-slide partners-slider" >
+                    <img src="img/partners-img.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="wrapper">
+
+            <!-- Верхний ФУТЕР -->
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="img/logo-footer.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer-messengers">
+                    <a href="#">
+                        <img src="img/whatsapp.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/vk.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/telegram.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Центральный ФУТЕР -->
+            <div class="footer-middle">
+                <div class="footer-blocks">
+                    <div class="footer-sections">
+                        <span class="footer-sections-header">Разделы</span>
+                        <a href="#">О нас</a>
+                        <a href="#">Услуги</a>
+                        <a href="#">Справочник</a>
+                        <a href="#">Загрузки</a>
+                        <a href="#">Техническая поддержка</a>
+                        <a href="#">Телефонный справочник</a>
+                    </div>
+                    <div class="footer-contacs">
+                        <span class="footer-sections-header">Контакты</span>
+                        <a href="tel: +7 (4112) 398-000">+7 (4112) 398-000</a>
+                        <a href="tel: +7 (4112) 398-233">+7 (4112) 398-233</a>
+                        <a href="mailto: secretar@yaensb.ru">secretar@yaensb.ru</a>
+                    </div>
+                    <div class="footer-office">
+                        <span class="footer-sections-header">Головной офис</span>
+                        <span>677980, г. Якутск,</span> 
+                        <span>ул. Октябрьская, дом 22,</span>   
+                        <span>офис 313</span>
+                    </div>
+                    <div class="footer-feedback">
+                        <span class="footer-sections-header">Обратная связь</span>
+                        <span>Нашли ошибку? Сообщите нам!</span>
+                        <span>Выделите и нажмите Ctr+Enter</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижний ФУТЕР -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-elements">
+                    <span class="g-14-400">© 2022 ГБУ РС(Я) “РЦИТ”</span>
+                    <a href="https://platforma.bz">
+                        <div class="platform">
+                            <span class="g-14-400">Разработан в</span>
+                            <img src="img/logo-platform.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Кнопка наверх -->
+        <div class="btn-up btn-up_hide">
+            <svg width="72" height="72" viewBox="0 0 72 72"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M71 36C71 55.33 55.33 71 36 71C16.67 71 1 55.33 1 36C1 16.67 16.67 1 36 1C55.33 1 71 16.67 71 36Z" stroke="#7C7C7C" stroke-width="2"/>
+                <path d="M36 29.0003L36 51.8574" stroke="currentColor" stroke-width="2"/>
+                <path d="M28 29.0002L36 21.0002L44 29.0002" stroke="currentColor" stroke-width="2"/>
+            </svg> 
+        </div>
+<!--  -->
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
